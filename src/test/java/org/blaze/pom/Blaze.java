@@ -26,7 +26,7 @@ public class Blaze extends BaseClass {
 	
 	@DataProvider(name="userDetails")
 	public Object[][] getUser(){
-		return new Object[][] {{"Prakash","13 maariamman st","chennai","tamilnadu","600070","123335565665","amex","12","2021","Pakash Kanth"}};
+		return new Object[][] {{"Prakash","13 maariamman st","chennai","tamilnadu","600070","amex","123335565665","12","2021","Pakash Kanth"}};
 	}
 
 	@Parameters({"url"})
@@ -62,11 +62,19 @@ public class Blaze extends BaseClass {
 	}
 	
 	@Test(dataProvider = "userDetails")
-	public void tc2(String name,String Addr,String cty,String state,String pincode,String ctype,String cnum,String mon,String yr,String nc) {
+	public void tc2(String name,String Addr,String cty,String state,String zip,String ctype,String cnum,String mon,String yr,String nc) {
 		PurchasePage pp = new PurchasePage();
 		enterText(pp.getName(),name);
-
-		
+		enterText(pp.getAddress(),Addr);
+		enterText(pp.getCity(),cty);
+		enterText(pp.getState(),state);
+		enterText(pp.getZip(),zip);
+		selectDropdown(pp.getCtype(), ctype, "val");
+		enterText(pp.getCcnum(),cnum);
+		enterText(pp.getCcmonth(),mon);
+		enterText(pp.getCcyear(),yr);
+		enterText(pp.getNcard(),nc);
+		btnClick(pp.getSubmit());
 		
 	}
 	

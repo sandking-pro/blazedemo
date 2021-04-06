@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="12995" started-at="2021-04-06T09:22:03Z" finished-at="2021-04-06T09:22:16Z">
+  <suite name="Suite" duration-ms="16335" started-at="2021-04-06T09:40:21Z" finished-at="2021-04-06T09:40:37Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="12995" started-at="2021-04-06T09:22:03Z" finished-at="2021-04-06T09:22:16Z">
+    <test name="Test" duration-ms="16335" started-at="2021-04-06T09:40:21Z" finished-at="2021-04-06T09:40:37Z">
       <class name="org.blaze.pom.Blaze">
-        <test-method status="PASS" signature="launch(java.lang.String)[pri:0, instance:org.blaze.pom.Blaze@7c0c77c7]" name="launch" is-config="true" duration-ms="6707" started-at="2021-04-06T09:22:03Z" finished-at="2021-04-06T09:22:09Z">
+        <test-method status="PASS" signature="launch(java.lang.String)[pri:0, instance:org.blaze.pom.Blaze@7c0c77c7]" name="launch" is-config="true" duration-ms="6401" started-at="2021-04-06T09:40:21Z" finished-at="2021-04-06T09:40:27Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method status="PASS" signature="tc0(java.lang.String, java.lang.String)[pri:0, instance:org.blaze.pom.Blaze@7c0c77c7]" name="tc0" duration-ms="4443" started-at="2021-04-06T09:22:10Z" data-provider="origins" finished-at="2021-04-06T09:22:14Z">
+        <test-method status="PASS" signature="tc0(java.lang.String, java.lang.String)[pri:0, instance:org.blaze.pom.Blaze@7c0c77c7]" name="tc0" duration-ms="1803" started-at="2021-04-06T09:40:27Z" data-provider="origins" finished-at="2021-04-06T09:40:29Z">
           <params>
             <param index="0">
               <value>
@@ -34,11 +34,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc0 -->
-        <test-method status="PASS" signature="tc1()[pri:0, instance:org.blaze.pom.Blaze@7c0c77c7]" name="tc1" duration-ms="1263" started-at="2021-04-06T09:22:14Z" finished-at="2021-04-06T09:22:15Z">
+        <test-method status="PASS" signature="tc1()[pri:0, instance:org.blaze.pom.Blaze@7c0c77c7]" name="tc1" duration-ms="1882" started-at="2021-04-06T09:40:29Z" finished-at="2021-04-06T09:40:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc1 -->
-        <test-method status="PASS" signature="tc2(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.blaze.pom.Blaze@7c0c77c7]" name="tc2" duration-ms="481" started-at="2021-04-06T09:22:15Z" data-provider="userDetails" finished-at="2021-04-06T09:22:16Z">
+        <test-method status="PASS" signature="tc2(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.blaze.pom.Blaze@7c0c77c7]" name="tc2" duration-ms="6123" started-at="2021-04-06T09:40:31Z" data-provider="userDetails" finished-at="2021-04-06T09:40:37Z">
           <params>
             <param index="0">
               <value>
@@ -67,12 +67,12 @@
             </param>
             <param index="5">
               <value>
-                <![CDATA[123335565665]]>
+                <![CDATA[amex]]>
               </value>
             </param>
             <param index="6">
               <value>
-                <![CDATA[amex]]>
+                <![CDATA[123335565665]]>
               </value>
             </param>
             <param index="7">

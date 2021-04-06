@@ -22,7 +22,6 @@ public class ReservePage extends BaseClass{
 	@FindBy(xpath="//input[@type='submit']")
 	private WebElement chooseFlight;
 
-
 	public List<WebElement> getRtable() {
 		return rtable;
 	}
