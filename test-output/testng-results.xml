@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="12995" started-at="2021-04-06T09:22:03Z" finished-at="2021-04-06T09:22:16Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="12995" started-at="2021-04-06T09:22:03Z" finished-at="2021-04-06T09:22:16Z">
+      <class name="org.blaze.pom.Blaze">
+        <test-method status="PASS" signature="launch(java.lang.String)[pri:0, instance:org.blaze.pom.Blaze@7c0c77c7]" name="launch" is-config="true" duration-ms="6707" started-at="2021-04-06T09:22:03Z" finished-at="2021-04-06T09:22:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://blazedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="tc0(java.lang.String, java.lang.String)[pri:0, instance:org.blaze.pom.Blaze@7c0c77c7]" name="tc0" duration-ms="4443" started-at="2021-04-06T09:22:10Z" data-provider="origins" finished-at="2021-04-06T09:22:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Portland]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc0 -->
+        <test-method status="PASS" signature="tc1()[pri:0, instance:org.blaze.pom.Blaze@7c0c77c7]" name="tc1" duration-ms="1263" started-at="2021-04-06T09:22:14Z" finished-at="2021-04-06T09:22:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="tc2(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.blaze.pom.Blaze@7c0c77c7]" name="tc2" duration-ms="481" started-at="2021-04-06T09:22:15Z" data-provider="userDetails" finished-at="2021-04-06T09:22:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Prakash]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[13 maariamman st]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chennai]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[tamilnadu]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[600070]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[123335565665]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[amex]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[2021]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Pakash Kanth]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+      </class> <!-- org.blaze.pom.Blaze -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
